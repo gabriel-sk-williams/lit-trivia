@@ -1,0 +1,38 @@
+{
+  "name": "ceramic-sphinx",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.5.1",
+    "@emailjs/browser": "^3.10.0",
+    "@lit-protocol/auth-browser": "^2.1.114",
+    "@lit-protocol/ecdsa-sdk": "^2.1.114",
+    "@lit-protocol/lit-node-client": "^2.1.114",
+    "@lit-protocol/lit-node-client-nodejs": "^2.1.114",
+    "@rainbow-me/rainbowkit": "^0.12.1",
+    "ethers": "^5.7.2",
+    "hash.js": "^1.1.7",
+    "next": "^12.1.6",
+    "react": "^18.1.0",
+    "react-countdown-circle-timer": "^3.2.1",
+    "react-dom": "^18.1.0",
+    "react-icons": "^4.8.0",
+    "react-twitter-embed": "^4.0.4",
+    "wagmi": "^0.12.1",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "@types/react": "^18.0.9",
+    "@types/react-query": "^1.2.9",
+    "eslint": "^8.15.0",
+    "eslint-config-next": "^12.1.6",
+    "typescript": "^4.9.4"
+  }
+}
